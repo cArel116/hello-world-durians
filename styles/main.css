@@ -1,0 +1,4 @@
+.countryName {
+    display: flex;
+    flex-wrap: wrap;
+}
