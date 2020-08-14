@@ -1,0 +1,57 @@
+/* adds Raleway font to entire page -- change if needed or messes with teammates styling  */
+
+main {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Styling of list boxes & h3 heading -- Ember's team assignment  */
+.countryFlexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px, dashed, blue;
+}
+
+
+.countryMainBlock h1 {
+    flex: 12;
+    text-align: center;
+    color: #262322;
+    margin: auto;
+}
+
+
+.countryCard {
+    flex: 4;
+    margin: 0.5em;
+    width: 20%;
+    padding: 0.5em 1.5em;
+    border: 2px solid #f2e5d7;
+    flex-flow: column;
+    align-self: center;
+    max-width: 50em;
+    min-width: 20em;
+    height: auto;
+}
+
+.countryCard:hover {
+    background-color: #c97d60;
+    border: 3px solid #ffbcb5;
+}
+
+.countryCard ul {
+    margin: -0.25em -1em 0.75em -1em;
+    padding: -1em auto;
+}
+
+.countryCard li {
+    color: #262322;
+    padding: 0.25em;
+}
+
+.countryCard h3 {
+    color: #63372c;
+    margin: 0.75em auto;
+}
+

@@ -1,0 +1,32 @@
+
+.travelSite {
+  margin: auto;
+  text-align: center;
+}
+.travelPlaces {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.travelCard {
+  max-width: 45%;
+  margin: 1em;
+  padding: 1em;
+  flex-basis: auto;
+}
+
+.cardImage {
+  width: 100%;
+  height: auto;
+  border: 3px black solid;
+  border-radius: 5px;
+}
+
+.travelCard a {
+  text-decoration: none;
+  color: black;
+}
+
+.travelCard:hover{
+  opacity: 0.8;
+}
