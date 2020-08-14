@@ -5,8 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colin's Awesome Country Page</title>
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/main.css">
     <link rel="stylesheet" href="styles/nav.css">
+    <link rel="stylesheet" href="styles/ember.css"><link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;800&display=swap" rel="stylesheet">
 </head>
 
 
@@ -14,7 +17,7 @@
 <body>
     <main>
         <header>
-            <div id="logo">Logo</div>
+            <img src="images/globe.jpg" alt="Durians Logo" id="logo">
         </header>
 
         <!-- NAVBAR -->
@@ -29,43 +32,51 @@
         </section>
         <!-- NAVBAR -->
 
-        <section class="countryImage">
-            <div class="countryName">
-                <div>
-                    <h2>List of Cities</h2>
-                    <ul>
-                        <li>city1</li>
-                        <li>city2</li>
-                        <li>city3</li>
-                        <li>city4</li>
-                        <li>city5</li>
-                    </ul>
-                </div>
-                <div>
-                    <h2>List of Cities</h2>
-                    <ul>
-                        <li>landmark1</li>
-                        <li>landmark2</li>
-                        <li>landmark3</li>
-                        <li>landmark4</li>
-                        <li>landmark5</li>
-                    </ul>
-                </div>
-                <div>
-                    <h2>List of Cities</h2>
-                    <ul>
-                        <li>people1</li>
-                        <li>people2</li>
-                        <li>people3</li>
-                        <li>people4</li>
-                        <li>people5</li>
-                    </ul>
-                </div>
+        <section class="countryMainBlock">
+            <div class="countryImage">
+              <img src="" alt="Iceland">
             </div>
-        </section>
+            <h1>Iceland</h1>
+            <div class="countryFlexbox">
+              <div class="countryCard">
+                <h3>Icelandic Cities</h3>
+                <ul>
+                  <li>Reykjavic</li>
+                  <li>Kópavogur</li>
+                  <li>Hafnarfjörður</li>
+                  <li>Akureyri</li>
+                  <li>Reykjanesbær</li>
+                  <li>Garðabær</li>
+                </ul>
+              </div>
+              <div class="countryCard">
+                <h3>Icelandic Landmarks</h3>
+                <ul>
+                  <li>Jokulsarlon Glacier Lagoon</li>
+                  <li>Diamond Beach </li>
+                  <li>The Blue Lagoon</li>
+                  <li>Gullfoss [The Golden Falls]</li>
+                  <li>Geysir/Strokkur</li>
+                  <li>Hallgrímskirkja Church</li>
+                </ul>
+              </div>
+              <div class="countryCard">
+                <h3>Famous Peeps</h3>
+                <ul>
+                  <li>Björk [singer/songwriter]</li>
+                  <li>Arnaldur Indriðason [writer]</li>
+                  <li>Bjarni Tryggvason [Astronaut and Scientist]</li>
+                  <li>Gylfi Sigurðsson [football/soccer]</li>
+                  <li>Kolbeinn Sigþórsson [football/soccer]</li>
+                  <li>Hafþór Júlíus Björnsson [strongman]</li>
+                </ul>
+              </div>
+            </div>
+          </section>
+
+
         <footer>
-            <div>copyright information</div>
-            <div>contact information</div>
+            <div id="copyright">copyright information</div>
         </footer>
     </main>
 </body>
