@@ -7,59 +7,65 @@
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/header.css">
     <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/nav.css">
 </head>
 <body>
     <main>
     <header>
         <img src="images/globe.jpg" alt="Durians Logo" id="logo">
     </header>
+    <!-- NAVBAR -->
     <section>
-        <nav>
-            <ul>
-                <li><a href="index.html"> Home</a></li>
-                <li><a href="ember.html"> Ember</a></li>
-                <li><a href="cj.html"> CJ</a></li>
-                <li><a href="colin.html"> Colin</a></li>
-                <li><a href="matt.html"> Matt</a></li>
-            </ul>
+        <nav id="navBar" class="topnav">
+            <a class="active" href="index.html">Home</a>
+            <a href="ember.html">Iceland</a>
+            <a href="matt.html">Russia</a>
+            <a href="colin.html">Scotland</a>
+            <a href="cj.html">South Africa</a>
         </nav>
     </section>
-    <section class="countryImage">
-        <img src="" alt="Picture of Russia">
-        <div class="countryName">
-            <h1>Russia</h1>
-            <div class="lists">
-                <h3 class="titleCard">list of cities</h3>
-                <ul class="listCard">
-                    <li>city1</li>
-                    <li>city2</li>
-                    <li>city3</li>
-                    <li>city4</li>
-                    <li>city5</li>
-                </ul>
-            </div>
-            <div class="list">
-                <h3 class="titleCard">list of landmarks</h3>
-                <ul class="listCard">
-                    <li>landmark1</li>
-                    <li>landmark2</li>
-                    <li>landmark3</li>
-                    <li>landmark4</li>
-                    <li>landmark5</li>
-                </ul>
-            </div>
-            <div class="list">
-                <h3 class="titleCard">list of people</h3>
-                <ul class="listCard">
-                    <li>people1</li>
-                    <li>people2</li>
-                    <li>people3</li>
-                    <li>people4</li>
-                    <li>people5</li>
-                </ul>
-            </div>
+    <!-- NAVBAR -->
+    <section class="countryMainBlock">
+        <div class="countryImage">
+          <img src="" alt="Iceland">
         </div>
-    </section>
+        <h1>Iceland</h1>
+        <div class="countryFlexbox">
+          <div class="countryCard">
+            <h3>Icelandic Cities</h3>
+            <ul>
+              <li>Reykjavic</li>
+              <li>Kópavogur</li>
+              <li>Hafnarfjörður</li>
+              <li>Akureyri</li>
+              <li>Reykjanesbær</li>
+              <li>Garðabær</li>
+            </ul>
+          </div>
+          <div class="countryCard">
+            <h3>Icelandic Landmarks</h3>
+            <ul>
+              <li>Jokulsarlon Glacier Lagoon</li>
+              <li>Diamond Beach </li>
+              <li>The Blue Lagoon</li>
+              <li>Gullfoss [The Golden Falls]</li>
+              <li>Geysir/Strokkur</li>
+              <li>Hallgrímskirkja Church</li>
+            </ul>
+          </div>
+          <div class="countryCard">
+            <h3>Famous Peeps</h3>
+            <ul>
+              <li>Björk [singer/songwriter]</li>
+              <li>Arnaldur Indriðason [writer]</li>
+              <li>Bjarni Tryggvason [Astronaut and Scientist]</li>
+              <li>Gylfi Sigurðsson [football/soccer]</li>
+              <li>Kolbeinn Sigþórsson [football/soccer]</li>
+              <li>Hafþór Júlíus Björnsson [strongman]</li>
+            </ul>
+          </div>
+        </div>
+      </section>
     <footer>
         <div id="copyright">copyright information</div>
     </footer>
