@@ -4,14 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matt's Page</title>
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
     <main>
     <header>
-        <div id="logo">Logo</div>
+        <img src="images/globe.jpg" alt="Durians Logo" id="logo">
     </header>
     <section>
-        <nav id="navBar">
+        <nav>
             <ul>
                 <li><a href="index.html"> Home</a></li>
                 <li><a href="ember.html"> Ember</a></li>
@@ -21,11 +24,13 @@
             </ul>
         </nav>
     </section>
-    <section class="countryImage"> country image goes here
-        <div class="countryName">country name used in a headline
-            <div>
-                <h2>list of cities</h2>
-                <ul>
+    <section class="countryImage">
+        <img src="" alt="Picture of Russia">
+        <div class="countryName">
+            <h1>Russia</h1>
+            <div class="lists">
+                <h3 class="titleCard">list of cities</h3>
+                <ul class="listCard">
                     <li>city1</li>
                     <li>city2</li>
                     <li>city3</li>
@@ -33,9 +38,9 @@
                     <li>city5</li>
                 </ul>
             </div>
-            <div>
-                <h2>list of landmarks</h2>
-                <ul>
+            <div class="list">
+                <h3 class="titleCard">list of landmarks</h3>
+                <ul class="listCard">
                     <li>landmark1</li>
                     <li>landmark2</li>
                     <li>landmark3</li>
@@ -43,11 +48,11 @@
                     <li>landmark5</li>
                 </ul>
             </div>
-            <div>
-                <h2>list of people</h2>
-                <ul>
+            <div class="list">
+                <h3 class="titleCard">list of people</h3>
+                <ul class="listCard">
                     <li>people1</li>
-                    <li>peoplek2</li>
+                    <li>people2</li>
                     <li>people3</li>
                     <li>people4</li>
                     <li>people5</li>
@@ -56,8 +61,7 @@
         </div>
     </section>
     <footer>
-        <div>copyright information</div>
-        <div>contact information</div>
+        <div id="copyright">copyright information</div>
     </footer>
     </main>
 </body>
