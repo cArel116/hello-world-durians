@@ -37,7 +37,17 @@ main {
     /* flex: 12; */
     text-align: center;
     color: #262322;
-    margin: auto;
+    margin: auto;   
+
+}
+
+h1 {
+    font-size: 3em;
+    padding-top: 1em;
+}
+
+h3 {
+    font-size: 2em;
 }
 
 
@@ -56,13 +66,14 @@ main {
 }
 
 .countryCard:hover {
-    background-color: #317BCD;
+    background-color: lightgray;
     border: 3px solid #173B74;
 }
 
 .countryCard ul {
     margin: -0.25em -1em 0.75em -1em;
     padding: -1em auto;
+    list-style-type: none;
 }
 
 .countryCard li {
