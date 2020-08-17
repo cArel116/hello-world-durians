@@ -1,7 +1,26 @@
 /* adds Raleway font to entire page -- change if needed or messes with teammates styling  */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;800&display=swap');
+
+
 
 main {
     font-family: 'Raleway', sans-serif;
+}
+
+
+/* style for image of country on individual country pages */
+.countryImage {
+    display: flex;
+    max-width: 100%;
+    max-height: auto;
+    justify-content: center;
+    padding: 1.75em;
+}
+
+.countryImage img {
+    border-radius: 25px;
+    max-width: 50%;
+    max-height: auto;
 }
 
 
@@ -15,7 +34,7 @@ main {
 
 
 .countryMainBlock h1 {
-    flex: 12;
+    /* flex: 12; */
     text-align: center;
     color: #262322;
     margin: auto;
