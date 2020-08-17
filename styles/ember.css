@@ -46,7 +46,8 @@ main {
     margin: 0.5em;
     width: 20%;
     padding: 0.5em 1.5em;
-    border: 2px solid #f2e5d7;
+    border: 2px solid #317BCD;
+    background-color: #eaf1f8;
     flex-flow: column;
     align-self: center;
     max-width: 50em;
@@ -55,8 +56,8 @@ main {
 }
 
 .countryCard:hover {
-    background-color: #c97d60;
-    border: 3px solid #ffbcb5;
+    background-color: #317BCD;
+    border: 3px solid #173B74;
 }
 
 .countryCard ul {
@@ -70,7 +71,7 @@ main {
 }
 
 .countryCard h3 {
-    color: #63372c;
+    color: #173b74;
     margin: 0.75em auto;
 }
 
